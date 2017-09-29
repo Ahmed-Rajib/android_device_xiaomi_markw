@@ -64,6 +64,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CONFIG := markw_defconfig
 #TARGET_KERNEL_SOURCE := kernel/xiaomi/markw
 TARGET_KERNEL_SOURCE := kernel/xiaomi/markw/android_kernel_xiaomi_markw
++TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 USE_CLANG_PLATFORM_BUILD := true
 
