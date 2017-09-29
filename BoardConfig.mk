@@ -1,4 +1,4 @@
-#
+# 
 # Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -58,10 +58,12 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
++TARGET_KERNEL_ARCH := arm64
++TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CONFIG := markw_defconfig
 #TARGET_KERNEL_SOURCE := kernel/xiaomi/markw
-TARGET_KERNEL_SOURCE := kernel/xiaomi/markw_new/android_kernel_xiaomi_markw
+TARGET_KERNEL_SOURCE := kernel/xiaomi/markw/android_kernel_xiaomi_markw
 
 USE_CLANG_PLATFORM_BUILD := true
 
